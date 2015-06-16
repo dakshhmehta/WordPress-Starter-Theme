@@ -10,7 +10,7 @@
 
 
     // This is your option name where all the Redux data is stored.
-    $opt_name = "starter_theme";
+    $opt_name = "themeOptions";
 
 
     /*
@@ -294,6 +294,7 @@
                 'id' => 'footer-text',
                 'title' => __('Footer Text', 'redux-framework'),
                 'desc' => 'Allows you to customize the footer text. Normally, copyright notice.',
+                'default' => 'Copyright &copy; 2014 MySite. All rights reserved.',
                 'args'   => array(
                    'teeny'            => true,
                     'textarea_rows'    => 3
